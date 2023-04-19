@@ -28,10 +28,17 @@ app.use("/api/v1/comment", routes.commentRouter);
 
 
 app.get("/", (req, res) => {
-  return res.send("Welcome to temari-net Page!");
+  return res.send("Welcome to School Hive Page!");
 });
 
 // Error handling
 app.use(errorHandler);
 
+export const config = {
+  api: {
+    timeout: 30
+  }
+};
+
 export default app;
+
