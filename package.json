@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "temari-net-backend",
-  "main": "dist/app.js",
+  "main": "dist/server.js",
   "engines": {
     "node": "16.x"
   },
